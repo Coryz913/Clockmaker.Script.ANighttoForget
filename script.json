@@ -1,0 +1,167 @@
+[
+  {
+    "id": "_meta",
+    "name": "A Night to Forget",
+    "author": "Cory",
+    "firstNight": [
+      "dusk",
+      "minioninfo",
+      "demoninfo",
+      "sailor",
+      "poisoner",
+      "devilsadvocate",
+      "eviltwin_a night to forget",
+      "pukka",
+      "snakecharmer_a night to forget",
+      "chef",
+      "butler_a night to forget",
+      "clockmaker",
+      "balloonist",
+      "ogre",
+      "highpriestess",
+      "dawn"
+    ],
+    "otherNight": [
+      "dusk",
+      "eviltwin_a night to forget",
+      "sailor",
+      "poisoner",
+      "butler_a night to forget",
+      "acrobat",
+      "devilsadvocate",
+      "lycanthrope",
+      "imp",
+      "pukka",
+      "fanggu",
+      "vigormortis",
+      "snakecharmer_a night to forget",
+      "gossip",
+      "banshee",
+      "tinker",
+      "moonchild",
+      "tor",
+      "poppygrower_a night to forget",
+      "ravenkeeper",
+      "balloonist",
+      "highpriestess",
+      "dawn"
+    ],
+    "bootlegger": [
+      "The Snake Charmer, Butler, Poppy Grower, and Evil Twin have modified abilities.",
+      "Alive players do not learn when they change character or alignment."
+    ]
+  },
+  "chef",
+  "clockmaker",
+  "highpriestess",
+  "sailor",
+  "balloonist",
+  {
+    "id": "snakecharmer_a night to forget",
+    "edition": "snv",
+    "name": "Snake Charmer",
+    "firstNightReminder": "The Snake Charmer chooses a player. If they chose the Demon: Swap the Snake Charmer & Demon tokens. The Pukka and Vigormortis poison tokens remain in the grim.",
+    "otherNightReminder": "The Snake Charmer chooses a player. If they chose the Demon: Swap the Snake Charmer & Demon tokens. The Pukka and Vigormortis poison tokens remain in the grim.",
+    "team": "townsfolk",
+    "reminders": [
+      "Poisoned"
+    ],
+    "setup": false,
+    "ability": "Each night, choose an alive player: a chosen Demon swaps characters & alignments with you. Old reminder tokens persist.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/Coryz913/Clockmaker.Script.ANighttoForget/main/token/snakecharmer_a%20night%20to%20forget/0.png",
+      "https://raw.githubusercontent.com/Coryz913/Clockmaker.Script.ANighttoForget/main/token/snakecharmer_a%20night%20to%20forget/1.png"
+    ],
+    "flavor": "Effendi... I am but a humble man, but my pipe is golden and a single tune will tame the wildest djinn, Inshallah. They say that greed hangs more men than rope. But not I, Effendi... not I."
+  },
+  "acrobat",
+  "lycanthrope",
+  "gossip",
+  "ravenkeeper",
+  "banshee",
+  "tealady",
+  "fool",
+  {
+    "id": "butler_a night to forget",
+    "edition": "tb",
+    "name": "Butler",
+    "firstNightReminder": "The Butler chooses a player. ",
+    "otherNightReminder": "The Butler chooses a player. ",
+    "team": "outsider",
+    "reminders": [
+      "Master"
+    ],
+    "setup": false,
+    "ability": "Each night, choose a player (not yourself): tomorrow, if you vote without that player, that nominee will not die when executed.",
+    "jinxes": [
+      {
+        "id": "organgrinder",
+        "reason": "If the Organ Grinder is causing eyes closed voting, the Butler may raise their hand to vote but their vote is only counted if their master voted too."
+      }
+    ],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/Coryz913/Clockmaker.Script.ANighttoForget/main/token/butler_a%20night%20to%20forget/0.png",
+      "https://raw.githubusercontent.com/Coryz913/Clockmaker.Script.ANighttoForget/main/token/butler_a%20night%20to%20forget/1.png"
+    ],
+    "flavor": "Yes, sir... No, sir... Certainly, sir."
+  },
+  "ogre",
+  "tinker",
+  "moonchild",
+  {
+    "id": "poppygrower_a night to forget",
+    "edition": "",
+    "name": "Poppy Grower",
+    "firstNightReminder": "Do not do the Minion Info and Demon Info steps. Wake the Demon, show the *THESE CHARACTERS ARE NOT IN PLAY* info token and any three good character tokens that are not in play.",
+    "otherNightReminder": "If the Poppy Grower died today or tonight, wake the Minions, show the *THIS IS THE DEMON* info token and point to the Demon. Put them to sleep. Wake the Demon, show the *THESE ARE YOUR MINIONS* info token and point to the Minions. Put the Demon to sleep.",
+    "team": "outsider",
+    "reminders": [
+      "Evil Wakes"
+    ],
+    "setup": false,
+    "ability": "If you died today or tonight, minions and demons learn who eachother are.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/Coryz913/Clockmaker.Script.ANighttoForget/main/token/poppygrower_a%20night%20to%20forget/0.png",
+      "https://raw.githubusercontent.com/Coryz913/Clockmaker.Script.ANighttoForget/main/token/poppygrower_a%20night%20to%20forget/1.png"
+    ],
+    "flavor": "In the hidden groves of the deep forest, the black poppy dwells. To see its revelry is to be enchanted. To smell its thick aroma is to be lost forever, a slave to the gods of light and dark."
+  },
+  "poisoner",
+  "devilsadvocate",
+  {
+    "id": "eviltwin_a night to forget",
+    "edition": "snv",
+    "name": "Evil Twin",
+    "firstNightReminder": "Wake both twins. Allow eye contact. Show both players the Evil Twin token. Put both players to sleep. If the good twin would wake tonight, wake the Evil Twin as though they had the same ability.",
+    "otherNightReminder": "Wake the Evil Twin as if they had the good twin's ability.",
+    "team": "minion",
+    "reminders": [
+      "Twin"
+    ],
+    "setup": false,
+    "ability": "You & an opposing player know each other. You think you have their ability. If the good player is executed, evil wins. Good can't win if you both live.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/Coryz913/Clockmaker.Script.ANighttoForget/main/token/eviltwin_a%20night%20to%20forget/0.png",
+      "https://raw.githubusercontent.com/Coryz913/Clockmaker.Script.ANighttoForget/main/token/eviltwin_a%20night%20to%20forget/1.png"
+    ],
+    "flavor": "I'm not Sara! I'm Clara! SHE is Sara! Sara is the evil one! Not me!"
+  },
+  "baron",
+  "pukka",
+  "imp",
+  "vigormortis",
+  "fanggu",
+  "tor",
+  "bootlegger"
+]
